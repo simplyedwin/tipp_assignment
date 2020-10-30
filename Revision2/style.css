@@ -1,0 +1,121 @@
+body{
+  background-image: url('autohome.svg');
+  background-position: top;
+  background-color: rgb(252, 252, 252);
+  background-repeat: no-repeat;
+  background-size: auto;
+  /* height: 50vh; */
+}
+
+/* h1{
+  background-color: green;
+  color: white;
+} */
+.box1{
+  background-color: blue;
+  height:30px;
+  width:30px;
+}
+.box2{
+  background-color: green;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  Top: -30px;
+  left: 30px;
+
+}
+.box3{
+  background-color: red;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  Top: -60px;
+  left: 60px;
+}
+
+.navbar{
+  /* background-color: teal;
+  color: white; */
+  background-image: url();
+  height: 40px;
+  position: sticky;
+  top: 0;
+  font-family: sans-serif;
+}
+.section1{
+  height: 100vh;
+  position: fixed;
+  top: 30vh;
+  width: 400px;
+  clear: both;
+}
+.section1 input{
+  /* height: 100vh;
+  position: fixed;
+  top: 30vh; */
+  width: 100%;
+  /* clear: both; */
+}
+.section2{
+  background-color: black;
+  height: 100vh;
+}
+.section3{
+  background-color: brown;
+  height: 100vh;
+}
+.main {
+height : 300px ;
+width : 300px ;
+border : 5px red solid ;
+}
+.box {
+height : 100px ;
+width : 100px ;
+background-color : salmon ;
+border: 5px blue dotted;
+margin: 100px;
+}
+p{
+  margin-left: 15px;
+  margin-top: 35px;
+}
+.scakedbox{
+  background-color: grey;
+  height: 10vh;
+  width: 10vw;
+}
+@media screen and (min-width:100px) {
+  .scakedbox{
+    height: 20vh;
+    width: 20vw;
+  }
+} 
+@media screen and (min-width:200px) {
+  .scakedbox{
+    height: 30vh;
+    width: 30vw;
+  }
+}
+
+@media screen and (min-width:300px) {
+  .scakedbox{
+    height: 40vh;
+    width: 40vw;
+  }
+}
+@media screen and (min-width:400px) {
+  .scakedbox{
+    height: 50vh;
+    width: 50vw;
+  }
+}
+.credit1{
+  position: absolute;
+  bottom: 0px;
+}
+.credit2{
+  position: absolute;
+  bottom: 20px;
+}

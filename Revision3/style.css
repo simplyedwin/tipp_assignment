@@ -1,0 +1,128 @@
+body {
+    background-color: white;
+}
+
+@media screen and (max-width: 300px) {
+    body {
+        background-color: pink;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    body {
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        background-color: purple;
+    }
+}
+
+.box {
+    height: 400px;
+    width: 400px;
+    background-color: teal;
+    transition-property: height;
+    transition-duration: 5s;
+}
+
+.box:hover {
+    background-color: green;
+    height: 100px;
+}
+
+a {
+    color: inherit;
+    text-decoration-line: none;
+    transition-property: color;
+    transition-duration: 1s;
+    font-size: 40px;
+    font-weight: bold;
+    /* transition: all 1s ease-out; */
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: white;
+}
+
+a:visited {
+    color: pink;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.box1 {
+    width: 400px;
+    height: 400px;
+    background-color: turquoise;
+    /* flex-grow: 1; */
+}
+
+.box2 {
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    /* flex-grow: 1; */
+}
+
+.box3 {
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    /* flex-grow: 1; */
+}
+
+.box4 {
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    /* flex-grow: 1; */
+}
+
+.box5 {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    /* flex-grow: 1; */
+}
+
+.ball {
+    background-color: teal;
+    margin: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: absolute;
+    right: 0;
+    animation-name: move-ball;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move-ball {
+    0% {
+        right: 0;
+    }
+    25% {
+        left: 0;
+    }
+    50% {
+        bottom: 0;
+    }
+    100% {
+        right: 0;
+    }
+    /* 100% {
+        top: 0;
+    } */
+}
