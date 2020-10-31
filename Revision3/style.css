@@ -102,27 +102,22 @@ a:visited {
     height: 100px;
     width: 100px;
     border-radius: 50px;
-    position: absolute;
-    right: 0;
+    position: relative;
+    top: 0;
+    left: 1550px;
     animation-name: move-ball;
-    animation-duration: 3s;
+    animation-duration:3s;
     animation-fill-mode: forwards;
 }
 
 @keyframes move-ball {
     0% {
-        right: 0;
+        right: 0; top: 0;
     }
-    25% {
-        left: 0;
+    25%{
+        left: 0; top: 0;
     }
     50% {
-        bottom: 0;
+        left: 0; top: 500px;
     }
-    100% {
-        right: 0;
-    }
-    /* 100% {
-        top: 0;
-    } */
 }
